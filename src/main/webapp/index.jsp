@@ -1,4 +1,5 @@
 <!DOCTYPE html lang="en" xml:lang="en">
+<html lang="en">
 <body>
   <h1>Addition Program for two numbers</h1>
 <form action = "add">
