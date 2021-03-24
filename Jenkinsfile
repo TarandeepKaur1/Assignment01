@@ -77,7 +77,7 @@ pipeline {
 		    steps
 		    {
 			    bat 'dir'
-			    bat 'xcopy /S /Q /Y /F target\\*.war "C:\\Program Files\\Apache Software Foundation\\Tomcat 8.5_Tomcat88\\webapps"'
+			    bat 'xcopy /S /Q /Y /F target\\*.war "C:\\Program Files\\Apache Software Foundation\\Tomcat 8.5\\webapps"'
 			    //bat 'C:\\Program Files\\Apache Software Foundation\\Tomcat 8.5_Tomcat88\\bin\\catalina.bat restart'
 		    }
 	    }
